@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h1-head {
+    height: 13vh;
+    width: 100vw;
+    background-color: rgb(12, 12, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-container {
+    height: 87vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-game {
+    height: 500px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img-outer {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img,
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+img:hover {
+    border: 5px solid rgb(12, 12, 47);
+}
+
+.score-board {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.user-score,
+.comp-score {
+    font-size: 45px;
+}
+
+.winner-pera {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-pera {
+    font-size: 25px;
+    background-color: rgb(12, 12, 47);
+    color: white;
+    display: inline;
+    padding: 15px;
+    border-radius: 20px;
+}
