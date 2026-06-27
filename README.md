@@ -37,6 +37,7 @@ This project was created to practice JavaScript fundamentals, DOM manipulation, 
 
 ```
 rock-paper-scissors-game/
+│── assets/
 │── images/
 │── index.html
 │── style.css
