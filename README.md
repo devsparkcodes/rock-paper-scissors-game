@@ -66,14 +66,7 @@ cd rock-paper-scissors-game
 
 ## 📸 Screenshot
 
-> Add a screenshot of the game interface here.
-
-Example:
-
-```
-<img width="1920" height="950" alt="image" src="https://github.com/user-attachments/assets/e4bb051a-e299-4ceb-91dc-be145f915ccc" />
-
-```
+![Game Screenshot](assets/game-preview.png)
 
 ---
 
